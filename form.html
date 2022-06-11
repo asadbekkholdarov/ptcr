@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Add member</title>
+  </head>
+  <body>
+    <div class="gs-neumorphic-main-card-outer-container">
+      <div class="gs-neumorphic-main-card-container">
+        <div class="gs-neumorphic-main-card">
+          <div class="gs-neumorphic-signup gs-form-open">
+            <div
+              class="gs-neumorphic-signup-login-header gs-open"
+              data-button="gs-neumorphic-signup"
+            >
+              Add member
+            </div>
+            <div class="gs-neumorphic-form-container">
+              <form>
+                <input
+                  type="text"
+                  name="name"
+                  class="gs-neumorphic-input"
+                  placeholder="Full Name"
+                />
+                <input
+                  type="date"
+                  name="dateOfBirth"
+                  class="gs-neumorphic-input"
+                  placeholder="Full Name"
+                />
+                <input
+                  type="text"
+                  name="Seria"
+                  class="gs-neumorphic-input"
+                  placeholder="Passport serie"
+                />
+                <select class="gs-neumorphic-input" name="CovidTest" id="">
+                  <option value="positive">Positive</option>
+                  <option value="negative">Negative</option>
+                </select>
+
+                <input
+                  type="date"
+                  name="analysDate"
+                  class="gs-neumorphic-input"
+                  placeholder="Last Name"
+                />
+
+                <select class="gs-neumorphic-input" name="gender" id="">
+                  <option value="male">Male</option>
+                  <option value="female">Memale</option>
+                </select>
+
+                <button class="gs-neumorphic-button">Signup</button>
+              </form>
+            </div>
+          </div>
+
+          
+          </div> 
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
